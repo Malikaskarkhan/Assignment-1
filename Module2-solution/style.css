@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+     padding: 0;
+ }
+h1{
+	color: black;
+	text-align: Center;
+}
+#p1{
+	color:black;
+	background: yellow;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	position: relaive;
+	margin-left: auto;
+	margin-top: 0px;
+	border: 3px solid black;
+	
+
+}
+#p2{
+	color:black;
+	background: red;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	position: relaive;
+	margin-left: auto;
+	margin-top: 0px;
+	border: 3px solid black;
+}
+#p3{
+	color:black;
+	background: lightgreen;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	position: relaive;
+	margin-left: auto;
+	margin-top: 0px;
+	border: 3px solid black;
+}
+.row{
+	width: 100%;
+}
+
+@media (min-width:992px){
+	.cl4 {
+		box-sizing: border-box;
+		width: 30%;
+		float: left;
+		border: 3px solid black;
+		padding: 10px;
+		background: gray;
+		color: white;
+		margin-top: 150px;
+		margin-right: 13px;
+		margin-left: 15px;
+
+	}
+	}
+
+@media (min-width:768px) and (max-width:991px){
+	.cm6{
+		width: 48%;
+		background: gray;
+		float: left;
+		padding: 4px;
+		border: 3px solid black;
+		margin-right: 10px;
+		color: white;
+
+	}
+	.cm12{
+		width:100%;
+		background: gray;
+		float: left;
+		padding: 4px;
+		border: 3px solid black;
+		margin-top: 10px;
+		color:white;
+	}
+	
+}
+@media(min-width:10px) and (max-width:767px){
+	.mb1 {
+		width: 100%;
+		background: gray;
+		padding: 4px;
+		border: 2px solid black;
+		margin-bottom: 10px;
+		color:white;
+
+	}
+}
